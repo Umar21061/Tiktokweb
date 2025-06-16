@@ -10,7 +10,7 @@ const Services = ({ homeRef, onBuyAccountClick, scrollToSection, refs }) => {
         <Row className="content-row">
           {/* Left Side */}
           <Col md={7}>
-            <h1 className="tiktokshop-title">TikTokShop</h1>
+            <h1 className="tiktokshop-title">TikTok Shop</h1>
             <h2 className="tiktokshop-title-2 mt-4">Account Monetization </h2>
             <p className="lead mt-3">
               We help creators monetize faster with trusted tools and audience growth services.
