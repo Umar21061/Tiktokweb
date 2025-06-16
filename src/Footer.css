@@ -1,0 +1,43 @@
+/* Default styles */
+.footer {
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around; /* Align content to the left */
+  }
+  
+  .privacy-policy-button {
+    text-align: left;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  p {
+    text-align: left; /* Align paragraph text to the left */
+    color: white;
+    margin-right: 30px
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .privacy-policy-button {
+      margin-bottom: 10px; /* Add space between button and paragraph */
+      text-align: center; /* Center button */
+    }
+  
+    p {
+      text-align: center; /* Center paragraph text */
+    }
+  }
+  

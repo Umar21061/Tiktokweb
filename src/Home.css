@@ -1,0 +1,25 @@
+.form-container {
+    background-color: #c82333;
+}
+
+.form-container .form-control,
+.form-container .form-select {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.form-container .form-label {
+    color: white;
+}
+
+button[type="submit"] {
+    font-weight: bold;
+    padding: 10px 30px;
+    .input-style {
+    height: 45px;
+    font-size: 16px;
+}
+
+    border-radius: 30px;
+}

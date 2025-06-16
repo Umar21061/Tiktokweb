@@ -1,0 +1,150 @@
+/* Scrolling Banner */
+.scrolling-banner {
+  width: 100%;
+  background-color: #c82333;
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
+}
+
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  animation: scroll-left 12s linear infinite;
+  padding-left: 100%;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Navbar (Desktop) */
+.navbar {
+  background-color: #000;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 100px;
+  margin-left: 60px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 10px;
+  margin-right: 125px;
+}
+
+.nav-btn {
+  background: #c82333;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 8px;
+  padding: 10px 20px;
+  outline: none;
+}
+
+.nav-btn:hover {
+  background-color: #a91d2b;
+  color: white;
+}
+
+.nav-btn:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #a91d2b;
+}
+
+.logo-text {
+  display: none;
+}
+
+/* Hide toggle by default */
+.menu-toggle {
+  display: none;
+}
+/* Existing styles remain the same above... */
+
+/* Updated mobile menu styles */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    padding: 0;
+  }
+
+  .navbar-top {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .navbar-logo {
+    margin-left: 0;
+    height: 80px;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center; /* Center buttons horizontally */
+    width: 100%;
+    background-color: transparent; /* Remove solid bg from full width */
+    
+  }
+
+  .nav-menu.show {
+    display: flex;
+  }
+
+  .nav-btn {
+    width: auto;
+    min-width: 200px;
+    text-align: center;
+    padding: 12px 24px;
+    background-color: #c82333;
+    color: white;
+    margin: 10px 0;
+    box-shadow: 0 0 25px rgba(255, 126, 95, 0.4);
+    border-radius: 16px;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .nav-btn:hover {
+    background-color: #a91d2b;
+    transform: scale(1.03);
+  }
+}

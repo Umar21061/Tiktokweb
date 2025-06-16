@@ -1,0 +1,85 @@
+.form-container {
+    background-color: #c82333;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 0 25px rgba(255, 126, 95, 0.4);
+    
+   
+    
+}
+.button-group-custom {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: -10px; /* shift left by 10px */
+}
+
+body {
+  background-color: black;
+  color: white; /* Optional: sets default text color */
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.form-container .form-control,
+.form-container .form-select {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    height: 45px;
+    font-size: 16px;
+}
+
+.form-container .form-label {
+    color: white;
+    font-weight: 500;
+}
+
+.input-style {
+    height: 45px;
+    font-size: 16px;
+}
+
+/* Base styles — already good */
+
+
+/* Responsive: small screens (≤576px) */
+@media (max-width: 576px) {
+  .form-container {
+    padding: 20px;              /* Reduce top/bottom spacing */
+    margin: 0 30px; 
+            /* Equal left/right margin */
+  }
+
+  .form-container .form-label,
+  .form-container .form-control,
+  .form-container .form-select {
+    text-align: left;
+  }
+
+  .form-container .form-control,
+  .form-container .form-select {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .form-container .form-label {
+    font-size: 16px;
+  }
+
+  .input-style {
+    height: 45px;
+    font-size: 16px;
+  }
+ .form-container .submit-btn-wrapper {
+  text-align: left !important;
+}
+@media (max-width: 576px) {
+  button[type="submit"] {
+    margin-right: 35px;
+  }
+}
+
+ 
+}
