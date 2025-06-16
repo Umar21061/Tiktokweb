@@ -120,7 +120,7 @@
 
   .get-started-btn {
     display: block;
-    width: 100%;
+    width: 50%;
     margin: 10px 0;
     text-align: left;
   }
@@ -128,7 +128,13 @@
   .sale-offer-box {
     margin-top: 30px;
     text-align: left;
+    text-align: justify;
   }
+
+  .tiktokshop-title-2 {
+  color: #198754;
+}
+
 
   .custom-btn {
     width: 100%;
@@ -138,3 +144,5 @@
     text-align: left !important;
   }
 }
+
+
