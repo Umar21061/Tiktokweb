@@ -25,7 +25,7 @@ const HomePage = () => {
 
   const paymentInfoMap = {
     jazzcash: 'Till ID No [891491495]',
-    bank: 'IBAN PK05MEZN0098540104587685',
+    bank: 'PK05MEZN0098540104587685',
   };
 
   const calculateAmount = (cat, qty) => {
