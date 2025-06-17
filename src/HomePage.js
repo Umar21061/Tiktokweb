@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './Home.css';
 import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
 
@@ -141,6 +144,27 @@ const HomePage = () => {
 
   return (
     <div className="home-section form-container">
+      <Helmet>
+  <title>Buy TikTok Services | Followers, Views & Likes in Pakistan</title>
+  <meta
+    name="description"
+    content="Submit your TikTok service request to get fast, secure followers, views, and likes. 100% real audience with payment options like JazzCash and Meezan Bank."
+  />
+  <meta
+    name="keywords"
+    content="TikTok followers Pakistan, buy TikTok likes, TikTok views, JazzCash payment TikTok, TikTok promotion, TikTok services form"
+  />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="TikTok Promotion Request Form" />
+  <meta
+    property="og:description"
+    content="Buy TikTok services in Pakistan: followers, likes, views. Fast delivery with JazzCash or Bank payment. Submit your request now!"
+  />
+  <meta property="og:url" content="https://www.tiktokcheapeastservices.store/" />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://www.tiktokcheapeastservices.store/" />
+</Helmet>
+
       <Container className="py-5">
           <Row className="align-items-center mb-3">
           <Col className="text-end">

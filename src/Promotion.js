@@ -1,5 +1,7 @@
 import React from 'react';
 import './Promotion.css';
+import { Helmet } from 'react-helmet';
+
 import logo3 from './images/logo3.jpg';
 import { CheckCircleFill } from 'react-bootstrap-icons';
 
@@ -16,6 +18,27 @@ const Promotion = () => {
 
   return (
     <div className="promotion-container text-white">
+      <Helmet>
+  <title>TikTok Organic Promotion | Real & Active Users</title>
+  <meta
+    name="description"
+    content="Promote your TikTok account organically with real, active users. Get likes, views, and followers using our viral marketing strategies in Pakistan."
+  />
+  <meta
+    name="keywords"
+    content="TikTok promotion, organic TikTok followers, real TikTok users, increase TikTok views, TikTok marketing Pakistan"
+  />
+  <meta property="og:title" content="TikTok Organic Promotion" />
+  <meta
+    property="og:description"
+    content="Boost your TikTok engagement with 100% organic traffic and active users. Start your promotion now."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.tiktokcheapeastservices.store/" />
+  <meta property="og:image" content="https://www.tiktokcheapeastservices.store/logo3.jpg" />
+  <link rel="canonical" href="https://www.tiktokcheapeastservices.store/" />
+</Helmet>
+
       <div className="container-fluid">
         <div className="row">
           {/* Left Side Image and Order Text */}
