@@ -67,7 +67,7 @@ const Skill = () => {
         };
 
         try {
-            const response = await fetch('https://formspree.io/f/mwpbobva', {
+            const response = await fetch('https://formspree.io/f/xrblaodr', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
